@@ -1,24 +1,34 @@
-<!DOCTYPE HTML>
-<html lang="en-US">
-    <head>
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-QVXGJHJ0M1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Clean login form</title>
+  <link rel="stylesheet" href="assets/style.css">
 
-  gtag('config', 'G-QVXGJHJ0M1');
-</script>
-        <meta charset="UTF-8">
-        <meta http-equiv="refresh" content="0; url=https://t.me/+FxZeAXMv3LQ1MDVlr">
-        <script type="text/javascript">
-            window.location.href = "https://t.me/+FxZeAXMv3LQ1MDVl"
-        </script>
-        <title>Always</title>
-    </head>
-    <body>
-        <!-- Note: don't tell people to `click` the link, just tell them that it is a link. -->
-        If you are not redirected automatically, follow this <a href='https://t.me/+FxZeAXMv3LQ1MDVl'>link to example</a>.
-    </body>
+</head>
+<body oncontextmenu="return false;">
+<!-- partial:index.partial.html -->
+<div class="login">
+  <div class="heading">
+    <h2>Sign in</h2>
+    <div class="form">
+
+      <div class="input-group input-group-lg">
+        <span class="input-group-addon"><i class="fa fa-user"></i></span>
+        <input type="text" id="user" class="form-control" placeholder="Username or email">
+          </div>
+
+        <div class="input-group input-group-lg">
+          <span class="input-group-addon"><i class="fa fa-lock"></i></span>
+          <input type="password" id="pass" class="form-control" placeholder="Password">
+        </div>
+
+        <button type="submit" class="float" onclick="login()">Login</button>
+    </div>
+ 		</div>
+ </div>
+<!-- partial -->
+  <script src="assets/firebasedll.js"></script>
+  <script src="assets/hidedevtools.js"></script>
+</body>
 </html>
